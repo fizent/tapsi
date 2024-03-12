@@ -470,12 +470,14 @@ article {
     padding-bottom: 50px;
 }
 
+
+/* میشود از % هم استفاده کرد */
 .box {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  width: 447px;
+  min-width: 31%
 }
 
 
@@ -503,7 +505,7 @@ article {
 }
 
 .img-box {
-    width: 408px;
+    width: 100%;
     border-radius: 18px;
 }
 
