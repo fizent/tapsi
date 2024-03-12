@@ -1,0 +1,586 @@
+:root {
+    --color-p: #545454;
+    --color-butto: #ff5722;
+    --color-head: black;
+    --color-p-button: white;
+    --color-tapsi: rgba(23,26,60,.7);
+}
+
+
+nav, ul {
+    display: flex;
+    padding: 4px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #f8f8f8
+
+}
+
+ul {
+    margin-left: 78px;
+
+}
+
+.logo-tapsi-nav {
+    padding: 25px;
+    margin-right: 78px;
+}
+
+
+.li-nav {
+    padding-left: 32px;
+    list-style-type: none;
+    font-size: 15px;
+    color: var(--color-p);
+}
+
+.li-nav:hover {
+    color: var(--color-butto);
+}
+
+
+.btn-download {
+    padding: 10px 40px;
+    background-color: var(--color-butto);
+    border-radius: 8px;
+    color: var(--color-p-button);
+    text-decoration: none;
+}
+
+.btn-download:hover {
+    background-color: #ff3c00;
+}
+
+
+.start-tapsi {
+    background-image: url(./image/banner.jpg);
+    background-position: center center;
+    height: 73vh;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 67px;
+}
+
+
+
+.tabsi-form {
+  position: absolute;
+  background-color: var(--color-tapsi);
+  right: 101px;
+  bottom: 61px;
+  margin: 36px;
+  padding: 40px;
+  border-radius: 18px;
+} 
+
+.text-form {
+    text-align: end;
+    color: var(--color-p-button);
+}
+
+.tabsi-h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.tabsi-p {
+    font-size: 24px;
+}
+
+
+
+.all-btn-form {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+
+}
+
+.btn {
+    background-color: var(--color-p-button);
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: black;
+    transition: transform 0.5s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+
+.color-btn {
+    background-color: var(--color-tapsi);
+    color: white;
+    border: 1px solid white;
+}
+
+
+.btn-form-group {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+
+.section-opption-tapsi-m {
+    padding-top: 20px;
+    padding-right: 141px;
+    padding-left: 141px;
+
+}
+
+.mobile {
+  top: 36%;
+  height: 100%;
+  left: 10%;
+  position: absolute;
+}
+
+
+.opption-tapsi-h2 {
+  display: flex;
+  justify-content: end;
+  margin-top: 150px;
+  margin-bottom: 42px;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+
+.many-car {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.a-car {
+    color: var(--color-p);
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+.a-car:hover{
+    color: var(--color-butto);
+}
+
+.car {
+    width: 131px;
+    transition: transform 0.5s;
+    
+}
+
+.car:hover {
+    transform: translateX(-50px);
+}
+
+.section-opption-tapsi {
+    border: solid #ddd;
+    border-width: 0 0 1px;
+    padding-top: 20px;
+    padding-right: 141px;
+    padding-left: 141px;
+
+}
+
+.section-opption {
+    padding-top: 20px;
+    padding-right: 141px;
+    padding-left: 141px;
+
+}
+
+.container-opption {
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 130px;
+    
+}
+
+
+.img-opption {
+  background-image: url(./image/man-otopake.png);
+  flex: 1;
+  background-size: cover;
+  height: 414px;
+}
+
+
+.text-opption {
+  flex: 1;
+  font-size: 14.12px;
+  text-align: end;
+  padding-right: 10px;
+}
+
+
+.h2-opption {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+.p-opption {
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--color-p);
+    padding-left: 50px;
+    
+}
+
+
+
+.container-special {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 150px;
+}
+
+.img-special {
+    background-image: url(./image/i-mac.png);
+}
+
+
+
+.a-info-div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.5s;
+}
+
+
+.a-info-div:hover {
+    transform: translateX(-20px);
+}
+
+
+.h2-special {
+    font-weight: 700;
+}
+
+.a-information {
+    color: var(--color-butto);
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+
+.btn-saptname {
+    margin-top: 40px;
+    transition: transform 0.5s;
+}
+
+.btn-saptname:hover {
+    transform: translateY(-10px);
+}
+
+
+.saptname-a-btn {
+    background-color: var(--color-butto);
+    color: var(--color-p-button);
+    padding: 20px 10px;
+    border-radius: 18px;
+    text-decoration: none;
+}
+
+
+
+.container-medical {
+    margin-top: 150px;
+    display: flex;
+
+}
+
+
+.img-medical {
+    background-image: url(./image/macbook.png);
+    height: 365px;
+}
+
+
+
+
+
+.width-img {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    background-image: url(./image/parallax.jpeg);    
+    background-size: cover;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.container-travel {
+    display: flex;
+   
+}
+
+.travel-h3 {
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;  
+    padding-left: 90px;  
+    color: var(--color-p-button);
+    text-align: start;
+}
+
+
+
+.travel-p {
+    display: none;
+    overflow: hidden;
+    padding-left: 90px;
+    color: var(--color-p-button);
+    text-align: center;
+}
+
+.travel-h3 {
+    text-align: end;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    
+
+}
+
+.travel-h3:hover ~ .travel-p {
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+
+.section-driver {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+
+.container-driver {
+    display: flex;
+}
+
+
+
+article {
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    direction: rtl;
+
+}
+
+
+
+.h2-driver {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+
+.p-driver {
+    color: var(--color-p);
+}
+
+.h3-driver {
+    color: var(--color-p);
+    font-weight: 700;
+}
+
+.nav-driver {
+    color: var(--color-p);
+}
+
+
+
+.img-driver {
+    flex: 1;
+    background-image: url(./image/driver.png);
+    background-size: cover;
+    height: 350px;
+    border-radius: 18px;
+}
+
+.h3-driver, .nav-drive {
+    padding-top: 38px;
+}
+
+.span-tapsi {
+    color: blue;
+    font-weight: 400;
+}
+
+
+
+.btn-form-div-sptname {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.saptname-form {
+    padding: 20px 10px;
+    background-color: blue;
+    border: 0px;
+    border-radius: 18px;
+    color: var(--color-p-button);
+    font-weight: 500;
+    transition: transform 0.5s;
+}
+
+
+.saptname-form:hover {
+    transform: translateY(-10px);
+}
+
+
+
+
+
+/* article website */
+
+
+
+
+.all-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.h2-new-post {
+    font-size: 25px;
+}
+
+
+.section-new-post {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box {
+    margin-left: 11px;
+    padding-left: 15px;
+    padding-right: 15px; 
+    padding-top: 15px;
+}
+
+.box:hover {
+    box-shadow: 0 0 15px rgb(155, 152, 152);
+}
+
+
+.h3-box {
+    color: #333333;
+    font-weight: 600;
+}
+
+.p-box {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+    color: var(--color-p);
+}
+
+.img-box {
+    width: 408px;
+    border-radius: 18px;
+}
+
+
+.city-of-iran {
+    background-image: url(./image/map-back.svg);
+    background-size: cover;
+}
+
+.tehran {
+    font-size: 14px;
+}
+
+.h2-iran {
+  text-align: end;
+  padding-left: 72px;
+  padding-top: 51px;
+  padding-right: 72px;
+  padding-bottom: 0px;
+}
+
+
+.container-list-city {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+footer {
+    background-color: var(--color-head);
+    color: var(--color-p-button);
+    
+}
+
+.container-footer {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: end;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+
+
+#main-tapsi {
+    color: #acacac;
+}
+
+
+.logo-footer > p {
+    font-size: 13px;
+}
+
+.text > a {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    text-decoration: none;
+    color: var(--color-p-button);
+    line-height: 30px;
+}
+
+.text > a:hover {
+    color: var(--color-butto);
+}
+
+.h3-footer {
+    font-size: 18px;
+}
+
+.text {
+    padding-left: 10px;
+}
+.boxf {
+    background-color: white;
+  height: 160px;
+  border-radius: 18px;
+}
+
+
+.p-end {
+    padding-bottom: 20px;
+    text-align: end;
+    justify-content: end;
+    flex-direction: row;
+}
