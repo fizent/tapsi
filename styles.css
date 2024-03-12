@@ -210,7 +210,7 @@ ul {
   background-image: url(./image/man-otopake.png);
   flex: 1;
   background-size: cover;
-  height: 414px;
+  height: 419px;
 }
 
 
@@ -471,11 +471,13 @@ article {
 }
 
 .box {
-    margin-left: 11px;
-    padding-left: 15px;
-    padding-right: 15px; 
-    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 21px;
 }
+
 
 .box:hover {
     box-shadow: 0 0 15px rgb(155, 152, 152);
@@ -494,10 +496,17 @@ article {
     color: var(--color-p);
 }
 
+.div-img-box {
+    display: flex;
+    justify-self: center;
+
+}
+
 .img-box {
     width: 408px;
     border-radius: 18px;
 }
+
 
 
 .city-of-iran {
